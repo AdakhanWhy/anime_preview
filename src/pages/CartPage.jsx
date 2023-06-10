@@ -9,7 +9,7 @@ const CartPage = () => {
 
   let totalPrice = 0;
   products.forEach(item => totalPrice += item.price);
-
+  
   const buttonStyles = {
     width: '8vw',
     height: '4vh', 
